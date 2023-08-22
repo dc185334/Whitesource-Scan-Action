@@ -24,6 +24,9 @@ inputs:
     description: '(true/false) Enables Policy violation checks. Still updates inventory and will fail the build when a policy violation is found.'
     required: false
     default: false
+  userKey:
+    description: 'User Key from Whitespurce.'
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
