@@ -37,6 +37,7 @@ jobs:
       with:
         wssURL: https://app-eu.whitesourcesoftware.com/agent
         apiKey: ${{ secrets.WSS_API_KEY }}
+        userKey: ${{ secrets.WS_USERKEY }}
         productName: 'Microservices'
         projectName: 'My-Example-Microservice'
 
@@ -64,6 +65,7 @@ jobs:
       with:
         wssURL: https://app-eu.whitesourcesoftware.com/agent
         apiKey: ${{ secrets.WSS_API_KEY }}
+        userKey: ${{ secrets.WS_USERKEY }}
         configFile: 'whitesource-fs-agent.config'
 
 ```
