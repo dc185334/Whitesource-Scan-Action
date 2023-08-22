@@ -33,7 +33,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Run Whitesource Action
-      uses: TheAxZim/Whitesource-Scan-Action@v1.0.0
+      uses: dc185334/Whitesource-Scan-Action@v1.0.1
       with:
         wssURL: https://app-eu.whitesourcesoftware.com/agent
         apiKey: ${{ secrets.WSS_API_KEY }}
@@ -61,7 +61,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Run Whitesource Action
-      uses: TheAxZim/Whitesource-Scan-Action@v1.0.0
+      uses: dc185334/Whitesource-Scan-Action@v1.0.1
       with:
         wssURL: https://app-eu.whitesourcesoftware.com/agent
         apiKey: ${{ secrets.WSS_API_KEY }}

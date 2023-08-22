@@ -2,7 +2,7 @@
 FROM ubuntu:18.04
 
 LABEL version="1.0.1"
-LABEL repository="https://github.com/TheAxZim/Whitesource-Scan-Action"
+LABEL repository="https://github.com/dc185334/Whitesource-Scan-Action"
 LABEL maintainer="Azeem Shezad Ilyas <azeemilyas@hotmail.com>"
 
 ENV DEBIAN_FRONTEND noninteractive
